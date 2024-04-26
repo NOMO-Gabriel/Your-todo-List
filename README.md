@@ -9,7 +9,7 @@ Bienvenue dans le projet **Votre ToDoList** ! Ce projet implémente une applicat
 - [Structure du projet](#structure-du-projet)
 - [Fonctionnalités](#fonctionnalités)
 - [Comment utiliser](#comment-utiliser)
-- [Test en ligne](#test en ligne)
+- [Test en ligne](#test-en-ligne)
 - [Installation](#installation)
 - [Contribuer](#contribuer)
 - [Licence](#licence)
@@ -17,11 +17,16 @@ Bienvenue dans le projet **Votre ToDoList** ! Ce projet implémente une applicat
 ## Aperçu
 
 **Votre ToDoList** est une application de gestion de tâches qui vous permet d'ajouter, de modifier et de supprimer des tâches à effectuer. Vous pouvez suivre le nombre de tâches en attente de complétion et utiliser les boutons d'édition et de suppression pour gérer vos tâches.
+![Capture video du jeu](/demo/todo.png)
 
 ## Démonstration
 
-- [Voir la vidéo de démonstration](demo/video.gif)
-- [Voir une capture d'écran de l'application](demo/demo.jpeg)
+- [Voir la vidéo de démonstration](/demo/vieodemo.gif)
+
+## tester en ligne
+Vous pouvez directement tester le projet en ligne sur le lien: [venez tester en ligne ici](google.cm)
+
+
 
 ## Structure du projet
 
@@ -48,8 +53,6 @@ Voici la structure de votre projet :
 1. Clonez ou téléchargez ce projet sur votre ordinateur.
 2. Ouvrez le fichier `index.html` dans un navigateur web.
 3. Commencez à utiliser l'application pour gérer vos tâches !
-#test en ligne
-Vous pouvez directement tester le projet en ligne sur le lien: [venez tester en ligne ici](google.cm)
 
 ## Installation
 
