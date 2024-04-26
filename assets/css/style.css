@@ -1,10 +1,13 @@
 :root{
-    --bg-color1:#ffd55c;
-    --bg-color2: #5a95ff;
+    --bg-color1:rgba(128, 128, 128, 0.363) ;
+    --bg-color2: #1149b1de;
     --bg-color3: #f1f8fb;
     --bg-color4: rgba(0,0,0,0.3);
     --bg-color5: #111111;
     --bg-color6: #d1d3d4;
+    --bg-color7: #ffffff;
+    --bg-color8: #e1e1e1;
+    --bg-color9: #a0a0a0;
     --danger:red;
 }
 
@@ -16,7 +19,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(to bottom, #ffd55c 50%, #5a95ff 50%);
+    background: linear-gradient(to bottom,var(--bg-color1) 50%, var(--bg-color2) 50%);
 }
 
 
@@ -64,10 +67,89 @@ body {
     background-color: var(--bg-color2);
     border: none;
     outline: none;
-    color: wheat;
+    color: var(--bg-color7);
     cursor: pointer; 
 }
+#task{
+    margin-top: 1em;
+    border-radius: 0.5em;
+    width: 100%;
+    position: relative;
+    padding: 1em 0.5em;     
+}
 
+.task{
+    background-color: var(--bg-color7);
+     padding: 0.8em 1em;
+     display: grid;
+     grid-template-columns: 1fr 8fr 2fr 2fr;
+    gap: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.05);
+    align-items: center;
+    cursor: pointer;
+}
+.task:not(:first-child){
+    margin-top: 1em;
+}
+.task input[type="checkbox"] {
+    position: relative;
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--bg-color8);
+}
+.task input[type="checkbox"]:before{
+      content: "";
+      position: absolute;
+      transform: translate(-50%, -50%); 
+      top:50%;
+      left:50%;
+}
+
+.task input[type="checkbox"]:checked{
+    background-color: var(--bg-color2);
+    border-color: var(--bg-color2);
+}
+
+.task input[type="checkbox"]:checked:before{
+    position: absolute;
+    content: "\f00c";
+    color: var(--bg-color8);
+    font-size: 0.8em;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.task span{
+    font: 0.9em;
+    font-weight: 400;
+    word-break: break-all;
+}
+.task button{
+    color: var(--bg-color3);
+    width: 100%;
+    padding: 1em 0;
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.edit{
+    background-color: var(--bg-color2);
+}
+.delete{
+    background-color: var(--danger);
+}
+
+#pending-tasks span{
+    color: var(--bg-color2);   
+}
+.completed{
+    text-decoration: line-through;
+    color: var(--bg-color9);
+}
 #error{
     text-align: center;
     background-color: white;
