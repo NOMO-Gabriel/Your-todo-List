@@ -6,10 +6,10 @@ Bienvenue dans le projet **Votre ToDoList** ! Ce projet implémente une applicat
 
 - [Aperçu](#aperçu)
 - [Démonstration](#démonstration)
+- [Test en ligne](#test-en-ligne)
 - [Structure du projet](#structure-du-projet)
 - [Fonctionnalités](#fonctionnalités)
 - [Comment utiliser](#comment-utiliser)
-- [Test en ligne](#test-en-ligne)
 - [Installation](#installation)
 - [Contribuer](#contribuer)
 - [Licence](#licence)
@@ -23,8 +23,8 @@ Bienvenue dans le projet **Votre ToDoList** ! Ce projet implémente une applicat
 
 - [Voir la vidéo de démonstration](/demo/vieodemo.gif)
 
-## tester en ligne
-Vous pouvez directement tester le projet en ligne sur le lien: [venez tester en ligne ici](google.cm)
+## Tester en ligne
+Vous pouvez directement tester le projet en ligne sur le lien: [venez tester en ligne ici]( https://nomo-gabriel.github.io/Your-todo-List/)
 
 
 
